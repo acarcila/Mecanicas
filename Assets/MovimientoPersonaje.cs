@@ -18,8 +18,7 @@ public class MovimientoPersonaje : MonoBehaviour {
 	void Update () {
 		if(mover)
 		{
-			transform.position = Vector3.MoveTowards (transform.position, meta.position, personaje.movimiento * Time.deltaTime);	
-		}
+			transform.position = Vector3.MoveTowards (transform.position, meta.position, personaje.movimiento * Time.deltaTime);		}
 
 		
 	}

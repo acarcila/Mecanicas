@@ -55,7 +55,9 @@
      <Compile Include="Assets\BarraVida.cs" />
      <Compile Include="Assets\ColisionAtaque.cs" />
      <Compile Include="Assets\ColisionRango.cs" />
+     <Compile Include="Assets\ManaControlador.cs" />
      <Compile Include="Assets\MovimientoPersonaje.cs" />
+     <Compile Include="Assets\SpawnTropa.cs" />
      <Compile Include="Assets\UnidadAtaque.cs" />
      <Compile Include="Assets\UnidadStats.cs" />
  <Reference Include="UnityEngine.UI">

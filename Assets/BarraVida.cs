@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class BarraVida : MonoBehaviour {
 	
 	private UnidadStats stats;
-	private Image healthBar;
+	private Image imagenBarraVida;
 	private float vidaInicial;
 	private int vida;
 	private GameObject camara;
@@ -15,7 +15,7 @@ public class BarraVida : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		stats = GetComponentInParent<UnidadStats> ();
-		healthBar = transform.GetChild (0).GetChild (0).GetComponent<Image>();
+		imagenBarraVida = transform.GetChild (0).GetChild (0).GetComponent<Image>();
 		vidaInicial = stats.vida;
 
 		camara = GameObject.FindWithTag ("MainCamera");
@@ -28,7 +28,7 @@ public class BarraVida : MonoBehaviour {
 	}
 
 	public void actualizarBarraVida(){
-		healthBar.fillAmount = stats.vida / vidaInicial;
+		imagenBarraVida.fillAmount = stats.vida / vidaInicial;
 	}
 
 	public void mirarHaciaCamara()

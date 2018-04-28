@@ -18,7 +18,7 @@ public class ColisionRango : MonoBehaviour {
 
 	void Update(){
 		if (objetivoActual != null) {
-			if (!objetivoActual.gameObject.active) {
+			if (!objetivoActual.gameObject.activeInHierarchy) {
 				setCastilloAsObjetivo ();
 			}
 		} else 

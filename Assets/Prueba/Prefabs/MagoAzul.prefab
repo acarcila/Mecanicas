@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 223496199009664714}
   - component: {fileID: 114652194021400444}
   - component: {fileID: 114751726718147320}
+  - component: {fileID: 114754577326603272}
   m_Layer: 0
   m_Name: Vida
   m_TagString: Untagged
@@ -154,7 +155,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1939350669106768}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.88213545, y: 1.5890362e-16, z: 95.70102}
+  m_LocalPosition: {x: -13.804471, y: 5.5682197, z: 169.83224}
   m_LocalScale: {x: 9.022343, y: 5.5682197, z: 9.022353}
   m_Children:
   - {fileID: 4459402913213986}
@@ -327,7 +328,6 @@ MonoBehaviour:
   movimiento: 20
   rango: 7
   unidadEnemiga: UnidadRoja
-  healthBar: {fileID: 114743614481508212}
 --- !u!114 &114652194021400444
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -392,6 +392,17 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &114754577326603272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1064609225751336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391da808d2f403444b138d7af0fa1a06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114808572309971074
 MonoBehaviour:
   m_ObjectHideFlags: 1

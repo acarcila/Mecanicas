@@ -56,6 +56,7 @@ GameObject:
   - component: {fileID: 223621369697663206}
   - component: {fileID: 114449172091191772}
   - component: {fileID: 114903926007958900}
+  - component: {fileID: 114219187779247128}
   m_Layer: 0
   m_Name: Vida
   m_TagString: Untagged
@@ -141,7 +142,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1369519850252750}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5643562, y: 2.2097892e-16, z: 84.56796}
+  m_LocalPosition: {x: -23.377325, y: 2.7841094, z: 205.48499}
   m_LocalScale: {x: 9.022343, y: 5.5682197, z: 9.022353}
   m_Children:
   - {fileID: 4242499464407788}
@@ -312,6 +313,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meta: {fileID: 0}
   mover: 0
+--- !u!114 &114219187779247128
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1163100864146386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391da808d2f403444b138d7af0fa1a06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114449172091191772
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -404,7 +416,6 @@ MonoBehaviour:
   movimiento: 20
   rango: 8
   unidadEnemiga: UnidadRoja
-  healthBar: {fileID: 114989720568431136}
 --- !u!114 &114989720568431136
 MonoBehaviour:
   m_ObjectHideFlags: 1

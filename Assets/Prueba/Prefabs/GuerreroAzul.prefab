@@ -677,6 +677,7 @@ GameObject:
   - component: {fileID: 223153380949229468}
   - component: {fileID: 114289299522681688}
   - component: {fileID: 114147915331136100}
+  - component: {fileID: 114546229562297550}
   m_Layer: 0
   m_Name: Vida
   m_TagString: Untagged
@@ -1064,7 +1065,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1918830625230868}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.307614, y: 8.9, z: 4.447624}
+  m_LocalPosition: {x: -20.127296, y: 2.758171e-18, z: 123.70532}
   m_LocalScale: {x: 306.62155, y: 306.62155, z: 306.62155}
   m_Children:
   - {fileID: 4734306445019734}
@@ -1136,8 +1137,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1297134116088248}
   m_LocalRotation: {x: -0.7041545, y: 0.7100469, z: 4.3477834e-17, w: -4.3117028e-17}
-  m_LocalPosition: {x: -0.00001756952, y: 0.009640895, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalPosition: {x: -0, y: 0.0146, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4066394188772040}
   - {fileID: 4715982831041858}
@@ -1207,8 +1208,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1542298068465068}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.012553926, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4780060850555708}
   m_Father: {fileID: 4474887834743584}
@@ -1458,7 +1459,6 @@ MonoBehaviour:
   movimiento: 30
   rango: 1
   unidadEnemiga: UnidadRoja
-  healthBar: {fileID: 114552006626545086}
 --- !u!114 &114147915331136100
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1531,6 +1531,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74276e56fd380014c80365e33f8428ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114546229562297550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1899032939752126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391da808d2f403444b138d7af0fa1a06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114552006626545086
@@ -2526,6 +2537,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0.0553}
+  m_AnchoredPosition: {x: 0, y: 0.0455}
   m_SizeDelta: {x: 312, y: 241}
   m_Pivot: {x: 0.5, y: 0.5}

@@ -29,7 +29,10 @@ public class ManaControlador : MonoBehaviour {
 
 		if(frameCount > frameMax)
 		{
-			valorMana++;
+			if(valorMana < valorManaMax)
+			{
+				valorMana++;
+			}
 			frameCount = 0;
 		}
 

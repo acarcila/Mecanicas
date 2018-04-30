@@ -1,16 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SpawnTropa.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\UnidadAtaque.cs">
     <Files>
-      <File FileName="Assets\AnimacionGuerrero.cs" Line="1" Column="1" />
-      <File FileName="Assets\ColisionAtaque.cs" Line="66" Column="9" />
-      <File FileName="Assets\UnidadAtaque.cs" Line="43" Column="18" />
-      <File FileName="Assets\BarraVida.cs" Line="30" Column="2" />
-      <File FileName="Assets\UnidadStats.cs" Line="11" Column="16" />
-      <File FileName="Assets\ColisionRango.cs" Line="55" Column="9" />
-      <File FileName="Assets\MovimientoPersonaje.cs" Line="22" Column="83" />
-      <File FileName="Assets\ManaControlador.cs" Line="10" Column="8" />
-      <File FileName="Assets\SpawnTropa.cs" Line="38" Column="34" />
+      <File FileName="Assets\AnimacionGuerrero.cs" Line="26" Column="9" />
+      <File FileName="Assets\ColisionAtaque.cs" Line="1" Column="1" />
+      <File FileName="Assets\UnidadAtaque.cs" Line="19" Column="44" />
+      <File FileName="Assets\BarraVida.cs" Line="21" Column="50" />
+      <File FileName="Assets\UnidadStats.cs" Line="1" Column="1" />
+      <File FileName="Assets\ColisionRango.cs" Line="1" Column="1" />
+      <File FileName="Assets\MovimientoPersonaje.cs" Line="24" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

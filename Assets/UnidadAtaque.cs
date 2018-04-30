@@ -6,6 +6,7 @@ public class UnidadAtaque : MonoBehaviour {
 
 	public UnidadStats objetivo;
 	public bool atacar;
+	public Transform personaje;
 
 	private UnidadStats stats;
 	private int frameCount = 0;

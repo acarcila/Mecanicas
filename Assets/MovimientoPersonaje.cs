@@ -20,8 +20,8 @@ public class MovimientoPersonaje : MonoBehaviour {
 		{
 			transform.position = Vector3.MoveTowards (transform.position, meta.position, personaje.movimiento * Time.deltaTime);		
 			transform.position = new Vector3(transform.position.x, 0f, transform.position.z);
-
-			transform.LookAt (meta.position);
+			transform.LookAt(meta.position);
+			transform.Rotate (0,180f,0);
 		}
 
 		

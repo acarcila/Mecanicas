@@ -5,15 +5,19 @@ using UnityEngine.UI;
 
 public class ManaControlador : MonoBehaviour {
 
-	private Image imagenBarraMana;
-	private int valorManaMax;
 	public int valorMana;
 
-	private int frameCount = 0;
-	private int frameMax = 15;
+	private Image imagenBarraMana;
+	private int valorManaMax;
+	private int frameCount;
+	private int frameMax;
+	private TiempoControlador empezarMuerteSubita;
 
 	// Use this for initialization
 	void Start () {
+		empezarMuerteSubita = GameObject.Find("Time").GetComponent<TiempoControlador>();
+		frameCount = 0;
+		frameMax = 15;
 		valorManaMax = 100;
 		valorMana = 40;
 		imagenBarraMana = transform.GetChild (0).GetComponent<Image> ();
@@ -22,6 +26,9 @@ public class ManaControlador : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		actualizarBarraMana ();
+		if(empezarMuerteSubita.muerteSubita){
+			frameMax = 5;
+		}
 	}
 
 	void FixedUpdate () {

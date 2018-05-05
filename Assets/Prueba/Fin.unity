@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -806,6 +806,7 @@ GameObject:
   - component: {fileID: 2109092285}
   - component: {fileID: 2109092287}
   - component: {fileID: 2109092286}
+  - component: {fileID: 2109092288}
   m_Layer: 5
   m_Name: Ganador
   m_TagString: Untagged
@@ -950,3 +951,14 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2109092284}
+--- !u!114 &2109092288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2109092284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13d26613a4ea13b4daa32c4f0f8c29db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

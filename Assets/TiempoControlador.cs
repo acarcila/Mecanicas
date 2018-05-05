@@ -2,17 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class TiempoControlador : MonoBehaviour {
 
 	public float tiempoMaximo;
 	public float tiempoMuerteSubita;
 	public bool muerteSubita;
+	public float tiempo;
 
 	private Text timer;
 	private float segundos, minutos;
-	private float tiempo;
 
 	// Use this for initialization
 	void Start () {
@@ -26,9 +25,6 @@ public class TiempoControlador : MonoBehaviour {
 		contarTiempo ();
 		if(tiempo <= tiempoMuerteSubita){
 			muerteSubita = true;
-		}
-		if(tiempo <= 0){
-			SceneManager.LoadScene ("Fin");
 		}
 	}
 

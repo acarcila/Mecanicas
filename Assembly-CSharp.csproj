@@ -55,6 +55,7 @@
      <Compile Include="Assets\BarraVida.cs" />
      <Compile Include="Assets\ColisionAtaque.cs" />
      <Compile Include="Assets\ColisionRango.cs" />
+     <Compile Include="Assets\Main.cs" />
      <Compile Include="Assets\MainMenu.cs" />
      <Compile Include="Assets\ManaControlador.cs" />
      <Compile Include="Assets\MovimientoPersonaje.cs" />
@@ -179,6 +180,12 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="TextMeshPro-2017.3-Editor">
+ <HintPath>D:/Users/carlos.garzon/Documents/GitHub/Mecanicas/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-2017.3-Runtime">
+ <HintPath>D:/Users/carlos.garzon/Documents/GitHub/Mecanicas/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>D:/Users/carlos.garzon/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
@@ -199,12 +206,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>D:/Users/carlos.garzon/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="TextMeshPro-2017.3-Runtime">
- <HintPath>D:/Users/carlos.garzon/Documents/GitHub/Mecanicas/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
- </Reference>
- <Reference Include="TextMeshPro-2017.3-Editor">
- <HintPath>D:/Users/carlos.garzon/Documents/GitHub/Mecanicas/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

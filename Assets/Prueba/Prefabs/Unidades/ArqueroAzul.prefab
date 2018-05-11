@@ -141,8 +141,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1369519850252750}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.377325, y: 2.7841094, z: 205.48499}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -40.151207, y: 6.4368675e-16, z: 8.756348}
   m_LocalScale: {x: 9.022343, y: 5.5682197, z: 9.022353}
   m_Children:
   - {fileID: 4242499464407788}
@@ -150,7 +150,7 @@ Transform:
   - {fileID: 224305971101814442}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &4552420876819398
 Transform:
   m_ObjectHideFlags: 1
@@ -300,6 +300,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objetivo: {fileID: 0}
   atacar: 0
+  personaje: {fileID: 0}
 --- !u!114 &114184726680428440
 MonoBehaviour:
   m_ObjectHideFlags: 1

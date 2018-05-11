@@ -1,0 +1,308 @@
+fileFormatVersion: 2
+guid: 45998fe5742aab643824c12ea38d319e
+timeCreated: 1526062223
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: "B\xE1culo:Baculo"
+    100002: "B\xE1culo:Baculo1"
+    100004: "B\xE1culo:pCone1"
+    100006: "B\xE1culo:pCylinder1"
+    100008: "B\xE1culo:pPipe1"
+    100010: "B\xE1culo:transform1"
+    100012: "B\xE1culo:transform2"
+    100014: "B\xE1culo:transform3"
+    100016: "B\xE1culo:transform4"
+    100018: joint1
+    100020: l_arm1
+    100022: l_arm2
+    100024: l_hand
+    100026: l_leg1
+    100028: l_leg2
+    100030: l_leg3
+    100032: //RootNode
+    100034: Mago:pCube1
+    100036: Mago:pCube2
+    100038: Mago:pCube3
+    100040: Mago:pCube4
+    100042: Mago:pCube5
+    100044: Mago:pCube6
+    100046: Mago:pCube7
+    100048: Mago:pCylinder10
+    100050: Mago:pCylinder11
+    100052: Mago:pCylinder2
+    100054: Mago:pCylinder3
+    100056: Mago:pCylinder5
+    100058: Mago:pCylinder6
+    100060: Mago:pCylinder7
+    100062: Mago:pCylinder8
+    100064: Mago:pCylinder9
+    100066: Mago:pSphere1
+    100068: Mago:pSphere2
+    100070: Mago:pSphere3
+    100072: Mago:transform1
+    100074: Mago:transform10
+    100076: Mago:transform11
+    100078: Mago:transform12
+    100080: Mago:transform13
+    100082: Mago:transform14
+    100084: Mago:transform15
+    100086: Mago:transform16
+    100088: Mago:transform17
+    100090: Mago:transform18
+    100092: Mago:transform2
+    100094: Mago:transform3
+    100096: Mago:transform4
+    100098: Mago:transform5
+    100100: Mago:transform6
+    100102: Mago:transform7
+    100104: Mago:transform8
+    100106: Mago:transform9
+    100108: Pelvis
+    100110: r_arm1
+    100112: r_arm2
+    100114: r_hand
+    100116: r_leg1
+    100118: r_leg2
+    100120: r_leg3
+    100122: Spine1
+    100124: Spine2
+    100126: Spine3
+    400000: "B\xE1culo:Baculo"
+    400002: "B\xE1culo:Baculo1"
+    400004: "B\xE1culo:pCone1"
+    400006: "B\xE1culo:pCylinder1"
+    400008: "B\xE1culo:pPipe1"
+    400010: "B\xE1culo:transform1"
+    400012: "B\xE1culo:transform2"
+    400014: "B\xE1culo:transform3"
+    400016: "B\xE1culo:transform4"
+    400018: joint1
+    400020: l_arm1
+    400022: l_arm2
+    400024: l_hand
+    400026: l_leg1
+    400028: l_leg2
+    400030: l_leg3
+    400032: //RootNode
+    400034: Mago:pCube1
+    400036: Mago:pCube2
+    400038: Mago:pCube3
+    400040: Mago:pCube4
+    400042: Mago:pCube5
+    400044: Mago:pCube6
+    400046: Mago:pCube7
+    400048: Mago:pCylinder10
+    400050: Mago:pCylinder11
+    400052: Mago:pCylinder2
+    400054: Mago:pCylinder3
+    400056: Mago:pCylinder5
+    400058: Mago:pCylinder6
+    400060: Mago:pCylinder7
+    400062: Mago:pCylinder8
+    400064: Mago:pCylinder9
+    400066: Mago:pSphere1
+    400068: Mago:pSphere2
+    400070: Mago:pSphere3
+    400072: Mago:transform1
+    400074: Mago:transform10
+    400076: Mago:transform11
+    400078: Mago:transform12
+    400080: Mago:transform13
+    400082: Mago:transform14
+    400084: Mago:transform15
+    400086: Mago:transform16
+    400088: Mago:transform17
+    400090: Mago:transform18
+    400092: Mago:transform2
+    400094: Mago:transform3
+    400096: Mago:transform4
+    400098: Mago:transform5
+    400100: Mago:transform6
+    400102: Mago:transform7
+    400104: Mago:transform8
+    400106: Mago:transform9
+    400108: Pelvis
+    400110: r_arm1
+    400112: r_arm2
+    400114: r_hand
+    400116: r_leg1
+    400118: r_leg2
+    400120: r_leg3
+    400122: Spine1
+    400124: Spine2
+    400126: Spine3
+    2100000: lambert1
+    4300000: Mago:pCube7
+    4300002: "B\xE1culo:Baculo1"
+    7400000: Idle
+    7400002: Walk
+    7400004: Attack
+    9500000: //RootNode
+    13700000: "B\xE1culo:Baculo1"
+    13700002: Mago:pCube7
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 96
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 146
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 198
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

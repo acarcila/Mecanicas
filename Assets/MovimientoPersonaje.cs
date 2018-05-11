@@ -18,12 +18,20 @@ public class MovimientoPersonaje : MonoBehaviour {
 	void Update () {
 		if(mover)
 		{
-			transform.position = Vector3.MoveTowards (transform.position, meta.position, personaje.movimiento * Time.deltaTime);		
-			transform.position = new Vector3(transform.position.x, 0f, transform.position.z);
-			transform.LookAt(meta.position);
-			transform.Rotate (0,180f,0);
-		}
-
-		
+			switch(meta.name){
+			case "Castillo Rojo":
+				transform.Translate(-Vector3.forward * personaje.movimiento * Time.deltaTime);
+				break;
+			case "Castillo Azul":
+				transform.Translate(-Vector3.forward * personaje.movimiento * Time.deltaTime);
+				break;
+			default:
+				transform.position = Vector3.MoveTowards (transform.position, meta.position, personaje.movimiento * Time.deltaTime);		
+				transform.position = new Vector3(transform.position.x, 0f, transform.position.z);
+				transform.LookAt(meta.position);
+				transform.Rotate (0,180f,0);
+				break;
+			}
+		}	
 	}
 }

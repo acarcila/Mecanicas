@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 707d702cec624004390dd3b3ab0eb2ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unidad: {fileID: 1152481708738398, guid: 99c5897cc7c9ca7459e8f9b0de1dcaf5, type: 2}
+  unidad: {fileID: 1188874451999084, guid: 99c5897cc7c9ca7459e8f9b0de1dcaf5, type: 2}
   cantidadUnidades: 5
   padre: {fileID: 0}
   valorMana: 30

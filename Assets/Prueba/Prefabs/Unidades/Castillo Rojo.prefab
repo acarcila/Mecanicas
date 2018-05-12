@@ -230,6 +230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objetivo: {fileID: 0}
   atacar: 0
+  personaje: {fileID: 0}
 --- !u!114 &114178156577245640
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -242,7 +243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tipo: 0
-  vida: 50000
+  vida: 500
   "da\xF1o": 10
   movimiento: 0
   rango: 0

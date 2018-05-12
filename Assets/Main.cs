@@ -5,20 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class Main : MonoBehaviour {
 
-	private UnidadStats vidaCastilloRojo,vidaCastilloAzul;
+	private UnidadStats castilloRojo, castilloAzul;
 	private TiempoControlador tiempo;
 	private ConocerGanador ganador;
 
 	void Start () {
-		vidaCastilloRojo = GameObject.Find("Castillo Rojo").GetComponent<UnidadStats>();
-		vidaCastilloAzul = GameObject.Find("Castillo Azul").GetComponent<UnidadStats>();
+		castilloRojo = GameObject.Find("Castillo Rojo").GetComponent<UnidadStats>();
+		castilloAzul = GameObject.Find("Castillo Azul").GetComponent<UnidadStats>();
 		ganador = GameObject.Find("Ganador").GetComponent<ConocerGanador>();
 		tiempo = GameObject.Find("Time").GetComponent<TiempoControlador>();
 	}
 		
 	// Update is called once per frame
 	void Update () {
-		if(tiempo.tiempo <= 0){
+		if(tiempo.tiempo <= 0 || castilloRojo.vida <= 0 || castilloAzul.vida <= 0){
 			ganador.bandera = true;
 			cambiarPantalla();
 		}
@@ -26,10 +26,10 @@ public class Main : MonoBehaviour {
 
 	public string compararVida(){
 		string ganador = "";
-		if(vidaCastilloRojo.vida > vidaCastilloAzul.vida){
+		if(castilloRojo.vida > castilloAzul.vida){
 			 ganador = "Rojo";
 		}
-		if(vidaCastilloRojo.vida < vidaCastilloAzul.vida){
+		if(castilloRojo.vida < castilloAzul.vida){
 			 ganador = "Azul";
 		}
 		return ganador;

@@ -24,7 +24,6 @@ public class MovimientoPersonaje : MonoBehaviour {
 		if(meta.name == "Castillo Rojo" || meta.name == "Castillo Azul")
 		{
 			vectorPosicion = new Vector3 (transform.position.x, transform.position.y, meta.transform.position.z);
-
 		}
 
 		if(mover)

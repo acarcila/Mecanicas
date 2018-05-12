@@ -12,6 +12,11 @@ public class MovimientoPersonaje : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		if(this.tag == "UnidadAzul"){
+			meta = GameObject.Find ("Castillo Rojo").transform;
+		}else{
+			meta = GameObject.Find ("Castillo Azul").transform;
+		}
 		vectorPosicion = meta.position;
 		mover = true;
 		personaje = GetComponent<UnidadStats>();

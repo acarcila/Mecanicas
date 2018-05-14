@@ -152,7 +152,7 @@ GameObject:
   - component: {fileID: 114531762026868128}
   m_Layer: 0
   m_Name: Castillo Azul
-  m_TagString: Untagged
+  m_TagString: UnidadAzul
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -382,7 +382,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1509589054236770}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.8, y: -3.9, z: -46.8}
+  m_LocalPosition: {x: 7.8, y: -3.2, z: -48.8}
   m_LocalScale: {x: 1260.728, y: 1032.306, z: 1032.306}
   m_Children:
   - {fileID: 4094989432522680}
